@@ -1,6 +1,6 @@
 ---
 name: competitor-ads
-description: Use when someone says "check [competitor] ads", "what is [competitor] advertising?", "show me [competitor]'s ads" or "what are our competitors running?". Asks which platforms to check (Meta, Google, LinkedIn, TikTok and others), reads the competitor's live ads in the free public ad libraries, and comes back with a short summary of what they advertise about. Then offers to save every ad, to the user's computer or to Notion. Use before positioning, a launch, a campaign or a battlecard.
+description: For anyone doing competitive analysis or asking what a competitor is advertising. Reviewing public ads is one of the most effective ways to see what competitors are paying to promote and which messages and offers they emphasize. Checks public ad libraries such as Meta, Google, LinkedIn, and TikTok, summarizes findings in comparison tables, and can export ads to your computer or Notion.
 license: MIT
 ---
 
@@ -45,19 +45,9 @@ Ad libraries block automated visitors, so pick the first route that works:
 For every ad, note the fields in `reference/ad-checklist.md`. Keep going without asking more questions. If a platform needs a login, shows nothing or blocks you, say so in the findings and move on.
 
 ## Step 3. Come back with the findings
-Keep it short: the user should read it in one minute. Use this shape (full template in `reference/output.md`):
+Read [the findings template](reference/output.md) and use it in chat and in saved summaries. Lead with one takeaway, then show the comparison tables, an optional chart, and up to three evidence-backed observations. Keep the main report readable in about a minute. Put the full ad list in the export from Step 4, or show it in chat only when requested.
 
-1. **One line:** what they mostly advertise about.
-2. **What they talk about:** the 3 to 5 main themes, each with how many ads ("6 of 18 ads") and one short example headline.
-3. **Their offers:** demo, free trial, download, webinar, event, other, with counts.
-4. **What stands out:**
-   - **long runners** (running for 3 months or more): probably working
-   - **new push** (many new ads in the last 4 weeks)
-   - **testing** (several versions of one idea)
-   - **differences between platforms** (for example, LinkedIn is all demos, Meta is all free trials)
-5. **What nobody in their ads mentions** that buyers care about, if it is clear from the ads. Keep it to one or two lines.
-
-Then a short line of what was checked: platforms, country, time period, date checked, number of ads read, and any platform that could not be read or could not cover the period.
+Use counts from the ads you actually reviewed. Show actual coverage by platform, and describe run length and variants as observations without inferring performance.
 
 ## Step 4. Offer to save all the ads
 End with one question: **"Do you want to see all the ads? I can save them to your computer or to Notion."**
