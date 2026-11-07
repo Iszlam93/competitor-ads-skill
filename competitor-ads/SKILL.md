@@ -1,6 +1,6 @@
 ---
 name: competitor-ads
-description: For anyone doing competitive analysis or asking what a competitor is advertising. Reviewing public ads is one of the most effective ways to see what competitors are paying to promote and which messages and offers they emphasize. Checks public ad libraries such as Meta, Google, LinkedIn, and TikTok, summarizes findings in comparison tables, and can export ads to your computer or Notion.
+description: For anyone doing competitive analysis. Use when someone says "check [competitor] ads", "what is [competitor] advertising?", "show me [competitor]'s ads" or "what are our competitors running?". Reviewing public ads is one of the most effective ways to see what competitors are paying to promote and which messages and offers they emphasize. Checks public ad libraries such as Meta, Google, LinkedIn, and TikTok, summarizes findings in comparison tables, and can export ads to your computer or Notion.
 license: MIT
 ---
 
@@ -71,4 +71,4 @@ Never save anything before the user picks an option.
 - **Read only:** never click, like or comment on ads, never use someone else's login, and never post anything.
 
 ## Works with
-- **Positioning, messaging, battlecards and launches:** use "what they talk about" and "what nobody mentions" as inputs.
+- **Positioning, messaging, battlecards and launches:** use the themes, offers and platform comparison as inputs.
