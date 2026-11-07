@@ -61,15 +61,17 @@ It only offers time periods the platforms can actually cover, so you never wait 
 
 ---
 
-## Install
+## Install (about 1 minute)
 
 **Claude apps (claude.ai, desktop)**
-1. Download this repository (green **Code** button → **Download ZIP**) and unzip it.
-2. Zip the `competitor-ads` folder on its own.
-3. In Claude, go to **Settings → Capabilities → Skills** and upload that zip.
+1. **[Download competitor-ads.zip](https://github.com/Iszlam93/competitor-ads-skill/releases/latest/download/competitor-ads.zip)**. Do not unzip it.
+2. In Claude, go to **Customize → Skills → Add → Upload skill** and choose that file.
+3. Say **"check HubSpot ads"**.
+
+For the best results, use it with **Claude in Chrome** (see below).
 
 **Claude Code**
-Copy the `competitor-ads` folder into `~/.claude/skills/` (for you) or `.claude/skills/` in a project (for your team).
+Copy the `competitor-ads` folder from this repository into `~/.claude/skills/` (for you) or `.claude/skills/` in a project (for your team).
 
 ## What you need
 - **Best: Claude in Chrome.** Ad libraries block automated visitors, but they load normally in your own browser. With Claude in Chrome, Claude reads them for you. Tested: Meta and LinkedIn open this way.
