@@ -1,6 +1,6 @@
 ---
 name: competitor-ads
-description: Use when someone says "check <competitor> ads", "what is <competitor> advertising?", "show me <competitor>'s ads" or "what are our competitors running?". Asks which platforms to check (Meta, Google, LinkedIn, TikTok and others), reads the competitor's live ads in the free public ad libraries, and comes back with a short summary of what they advertise about. Then offers to save every ad, to the user's computer or to Notion. Use before positioning, a launch, a campaign or a battlecard.
+description: Use when someone says "check [competitor] ads", "what is [competitor] advertising?", "show me [competitor]'s ads" or "what are our competitors running?". Asks which platforms to check (Meta, Google, LinkedIn, TikTok and others), reads the competitor's live ads in the free public ad libraries, and comes back with a short summary of what they advertise about. Then offers to save every ad, to the user's computer or to Notion. Use before positioning, a launch, a campaign or a battlecard.
 license: MIT
 ---
 
