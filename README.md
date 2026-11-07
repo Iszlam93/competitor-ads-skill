@@ -4,12 +4,12 @@
 
 A free, open-source skill for Claude. It reads a competitor's ads in the public ad libraries (LinkedIn, Google, Meta, TikTok and others), sums up what they talk about, and can save every ad to your computer or to Notion.
 
-Made for product marketers, marketers and founders who want to know what competitors are paying to say, without scrolling through ad libraries for an hour.
+Built for anyone doing competitive analysis. Reviewing competitor ads is one of the most effective ways to see what competitors are paying to promote, which messages they emphasize, and how their offers vary across channels.
 
 ---
 
 ## Why competitor ads?
-A website shows what a company wants to be. Its ads show what it is **paying** to say, to whom, right now. An ad that keeps running for months is probably working, because nobody keeps paying for a bad ad.
+Look for recurring themes, offers, and creative across the ads you review. A long-running ad gives you a concrete example to investigate further.
 
 ## How it works
 
@@ -29,16 +29,16 @@ A website shows what a company wants to be. Its ads show what it is **paying** t
 
 It only offers time periods the platforms can actually cover, so you never wait for something that is not there.
 
-**4. Claude comes back with the findings, readable in one minute**
-> **HubSpot is mostly advertising about [theme].**
-> - What they talk about: [theme] in 8 of 20 ads, [theme] in 6 of 20 ...
-> - Their offers: demo (9), free trial (7), webinar (4)
-> - What stands out: one ad running since [date]; 5 new ads this month; LinkedIn is all demos, Meta is all free trials
-> - Checked: LinkedIn and Meta, United States, running now, 20 ads
->
-> Do you want to see all the ads? I can save them to your computer or to Notion.
+**4. Claude comes back with a short comparison report**
 
-*(Example layout only, not real HubSpot data.)*
+It opens with one takeaway, then shows the leading themes and offers with counts and example ads. A second table compares platforms and shows exactly what was reviewed. When the counts make a useful comparison, it includes a bar chart.
+
+| Type | Theme or offer | Ads reviewed | Example ad |
+|---|---|---:|---|
+| Theme | Workflow automation | 8/20 | Automate your follow-ups |
+| Offer | Free trial | 7/20 | Start your free trial |
+
+*(Illustrative rows only; not real HubSpot data.)*
 
 **5. If you want, Claude saves every ad**
 - **To your computer:** a folder with `summary.md`, `ads.csv` (one row per ad) and screenshots.
